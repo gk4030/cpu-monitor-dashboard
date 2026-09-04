@@ -57,10 +57,15 @@
 
 
 ### 🛠️ 技术栈
+
 后端：Python, Flask, SQLite3
+
 前端：HTML5, CSS3, JavaScript
+
 图表：Apache ECharts
+
 Markdown 渲染：marked.js
+
 AI 接口：兼容 OpenAI API 标准的各类大模型
 
 ### 🤝 贡献
