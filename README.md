@@ -12,9 +12,9 @@
 - **📱 响应式设计**：完美适配 PC 与移动端浏览器。
 
 ## 📸 界面预览
-
-*(建议在此处放上你的项目截图，例如：)*
-<!-- ![Dashboard](assets/screenshot.png) -->
+![Dashboard](assets/screenshot1.png)
+![Dashboard](assets/screenshot2.png)
+![Dashboard](assets/screenshot3.png)
 
 ## 🚀 快速开始
 
@@ -27,3 +27,44 @@
    ```bash
    git clone https://github.com/your-username/cpu-monitor-dashboard.git
    cd cpu-monitor-dashboard
+
+2. **安装依赖**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **启动服务**
+   ```bash
+   python app.py
+   ```
+启动后，在浏览器中访问 http://127.0.0.1:5000
+
+
+### 📖 使用指南
+
+1. 导入数据
+准备包含以下表头的 CSV 文件：Node IP, Timestamp, CPU Usage(%)。
+点击页面右上角的 📂 导入CSV 按钮上传文件。
+
+2. 配置 AI 诊断
+点击右上角 ⚙️ AI设置。
+在“服务商/平台”下拉框中选择你使用的平台（如 DeepSeek、Ollama 等），系统会自动填充 API 地址和推荐模型。
+填入你的 API Key。
+开启“启用 AI 诊断”开关并保存。
+
+3. 查看报告
+选择特定的 IP 或日期，页面下方的“智能诊断报告”面板将展示 AI 生成的 Markdown 格式分析报告及风险评级。
+
+
+### 🛠️ 技术栈
+后端：Python, Flask, SQLite3
+前端：HTML5, CSS3, JavaScript
+图表：Apache ECharts
+Markdown 渲染：marked.js
+AI 接口：兼容 OpenAI API 标准的各类大模型
+
+### 🤝 贡献
+欢迎提交 Issue 和 Pull Request！
+
+### 📄 许可证
+本项目基于 MIT License 开源。
