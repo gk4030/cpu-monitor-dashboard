@@ -13,6 +13,7 @@ GitHub_release process.md
 cpu_stats.db
 llm_config.json
 *.csv
+*.bak
 
 # IDE 与系统文件
 .vscode/
