@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# 项目运行生成的数据与配置（切勿提交敏感信息）
+GitHub_release process.md
+cpu_stats.db
+llm_config.json
+*.csv
+
+# IDE 与系统文件
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
